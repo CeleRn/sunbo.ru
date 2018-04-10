@@ -1,0 +1,10 @@
+.header {
+    &__middle {
+        height: 100px;
+        background-color: rgba(#666666,0.75);
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@import "header/logo";

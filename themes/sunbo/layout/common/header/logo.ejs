@@ -1,0 +1,10 @@
+<div class="logo">
+  <% if (is_home()) { %>
+    <img src="<%= site.data.company.logo %>" alt="<%= site.data.company.altLogo %>" class="logo__image" />
+  <% } else { %>
+    <a href="<%= config.url %>" class="logo__link">
+      <img src="<%= site.data.company.logo %>" alt="<%= site.data.company.altLogo %>" class="logo__image" />
+    </a>
+  <% } %>
+    <span class="logo__slogan"><%= site.data.company.slogan %></span>
+</div>

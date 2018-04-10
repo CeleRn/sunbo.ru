@@ -1,0 +1,32 @@
+.logo {
+    width: 160px;
+    background-color: rgba($main-color, .8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px 0 0 0;
+    position: relative;
+    box-shadow: -2px 2px 8px rgba(0,0,0,0.2);
+    top: -30px;
+    &__link {
+        &:hover, &:focus {
+            outline: 0;
+        }
+    }
+    &__image {
+        width: 90px;
+        margin-bottom: 20px;
+    }
+    &__slogan {
+        display: block;
+        color: #ffffff;
+        padding: 0 15px;
+        font-size: 1.1em;
+        line-height: 1.1;
+        text-align: center;
+        font-weight: 300;
+        // height: 50px;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}

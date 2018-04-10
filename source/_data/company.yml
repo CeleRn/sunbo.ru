@@ -1,0 +1,18 @@
+logo: /assets/images/logo-sunbo_white.svg
+altLogo: Интернет-магазин SUNBO
+name: SUNBO
+fullname: Сервисный компьютерный центр "PLEX"
+slogan: Уютный свет в каждый дом
+# image: /assets/images/uploads/logo-artmusicpro.svg
+phone: 84954093741
+
+email: info@sunbo.ru
+city: г. Москва
+address: Ленинградское шоссе, 42
+paymentMethods:
+  - name: Visa
+  - name: MasterCard
+  - name: Yandex Деньги
+  - name: Qiwi
+defaultPrice: По договоренности
+priceRange: $$
